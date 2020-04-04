@@ -19,5 +19,14 @@
   "rules": {
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*_test.js", "_shim*.js"],
+      "rules": {
+        "no-unused-expressions": "off",
+        "no-undef": "off"
+      }
+    }
+  ]
 }
