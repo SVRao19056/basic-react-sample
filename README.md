@@ -37,9 +37,9 @@ This is pretty much standard configuration. Only additional configuration was to
 ![EsLint Configuration](./readme-images/es-lint-customizations.png?raw=true "EsLint Configuration")
 ![EsLint Ignore Configuration](./readme-images/esIgnore.png?raw=true "EsLint Ignore Configuration")
 ## Original Intent
-This is intended to be a guide for integration of neutrinojs with react babel webpack eslint and jest.The motivation is to share this possibleresolution which was acheived with significant reaserch and effort.
+This is intended to be a guide for integration of neutrinojs with react, babel, webpack, eslint and jest.The motivation is to share this possible resolution which was achieved with significant research and effort.
 ### Error Message
-This effort was started to resolve "Module parse failed: Unexpected token" error see image below
+This effort was originall started to resolve the  "Module parse failed: Unexpected token" error. see image below.
 
 ![original error message](./readme-images/original-error.JPG?raw=true "Original Errror Message")
 
