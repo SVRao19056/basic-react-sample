@@ -11,7 +11,7 @@ const sagaMiddlewareObj = createSagaMiddleware();
 
 export default function configureStore(initialState = {}) {
   const logger = () => (next) => (action) => {
-    //TODO: log action before it is triggered
+    console.log("%j", initialState);
     return next(action);
   };
 

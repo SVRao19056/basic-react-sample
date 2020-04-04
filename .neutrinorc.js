@@ -60,7 +60,7 @@ module.exports = {
       // setup script for the framework
       setupFilesAfterEnv: ["./src/test/test_setup.js"],
       // and / or shims
-      setupFiles: ["./src/test/_shim.js", "./src/test/test_setup.js"],
+      setupFiles: ["./src/test/_shim.js", "./src/test/test_setup.js"], //This Needs to be first entry ./src/test/_shim.js
 
       collectCoverage: true,
       collectCoverageFrom: ["**/src/components/**/*.{js,jsx}"],
