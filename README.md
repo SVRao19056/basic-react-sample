@@ -43,6 +43,8 @@ This effort was originall started to resolve the  "Module parse failed: Unexpect
 
 ![original error message](./readme-images/original-error.JPG?raw=true "Original Errror Message")
 
+## Known Issues
+- [ ] Jest code coverage option is not functional . The covearge report is generated but it is empty. This is under investigation
 ## References
 
 - [Neutrinojs React Preset options](https://neutrinojs.org/packages/react/)
