@@ -1,7 +1,7 @@
 {
   "name": "@svr-tutorial-samples/demo-react-app",
   "version": "1.0.0",
-  "description": "sample demonstrating integration of neutrinojs with react jest , webpack",
+  "description": "sample demonstrating integration of neutrinojs with react, jest , webpack babel and eslint",
   "main": "index.js",
   "dependencies": {
     "react": "^16.13.1",
@@ -37,7 +37,14 @@
     "lint": "eslint --cache --format codeframe --ext mjs,jsx,js src",
     "lint:fix": "npm run lint -- --fix"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react",
+    "jest",
+    "@neutrinojs/jest",
+    "babel-eslint",
+    "eslint",
+    "webpack"
+  ],
+  "author": "Suresh Rao",
   "license": "ISC"
 }
