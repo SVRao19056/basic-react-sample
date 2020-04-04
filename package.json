@@ -1,0 +1,43 @@
+{
+  "name": "@svr-tutorial-samples/demo-react-app",
+  "version": "1.0.0",
+  "description": "sample demonstrating integration of neutrinojs with react jest , webpack",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@neutrinojs/eslint": "^9.1.0",
+    "@neutrinojs/jest": "^9.1.0",
+    "@neutrinojs/karma": "^9.1.0",
+    "@neutrinojs/mocha": "^9.1.0",
+    "@neutrinojs/react": "^9.1.0",
+    "@testing-library/jest-dom": "^5.3.0",
+    "babel-eslint": "^10.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^6.8.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-react": "^7.19.0",
+    "jest": "^25.2.7",
+    "karma": "^4.4.1",
+    "mocha": "^7.1.1",
+    "neutrino": "^9.1.0",
+    "react-addons-test-utils": "^15.6.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint --cache --format codeframe --ext mjs,jsx,js src",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
