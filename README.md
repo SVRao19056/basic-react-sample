@@ -13,7 +13,7 @@ This is intended to be a guide for integration of neutrinojs with react babel we
 ### Error Message
 This effort was started to resolve "Module parse failed: Unexpected token" error see image below
 
-![original error message](./readme-images/original-error.jpg?raw=true "Original Errror Message")
+![original error message](./readme-images/original-error.JPG?raw=true "Original Errror Message")
 
 ## References
 
