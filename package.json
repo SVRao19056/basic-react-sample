@@ -1,12 +1,20 @@
 {
   "name": "@svr-tutorial-samples/demo-react-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sample demonstrating integration of neutrinojs with react, jest , webpack babel and eslint",
   "main": "index.js",
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SVRao19056/basic-react-sample.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SVRao19056/basic-react-sample/issues"
+  },
+  "homepage": "https://github.com/SVRao19056/basic-react-sample#readme",
   "devDependencies": {
     "@neutrinojs/eslint": "^9.1.0",
     "@neutrinojs/jest": "^9.1.0",

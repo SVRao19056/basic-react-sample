@@ -1,3 +1,3 @@
-import neutrino from "neutrino";
+const neutrino = require("neutrino");
 
-export default neutrino().webpack();
+module.exports = neutrino().webpack();
